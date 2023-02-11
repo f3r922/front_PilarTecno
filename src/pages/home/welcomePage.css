@@ -1,0 +1,72 @@
+.intro{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../../assets/images/talampaya-12.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in;
+}
+
+
+.content{
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+}
+
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+
+.content h1 span{
+    color: orange;
+}
+.content a{
+    margin-top: 10px;
+    background: orange;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.content a:hover{
+    background: gray;
+    color: orange;
+}
+
+@keyframes change{
+    0%{
+        background-image: url("../../assets/images/image2.jpg");
+    }
+    30%{
+        background-image: url("../../assets/images/image3.jpg");
+    }
+    60%{
+        background-image: url("../../assets/images/image4.jpg");
+    }
+    100%{
+        background-image: url("../../assets/images/talampaya-12.jpg");
+    }
+}
+
+

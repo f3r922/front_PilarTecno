@@ -1,0 +1,73 @@
+.header{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: blueviolet;
+    color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;  
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+main{
+    background-color: orange ;
+    height: 100%;
+    text-align: center;
+}
+
+.parrafo{
+    margin: 0px 300px;
+    padding: 100px 0px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.div_mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2{
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: antiquewhite;
+
+}
+
+.arrow{
+    font-size: 40px;
+    color: rgba(0,0,0,.6)
+}
+
+.arrow:hover{
+    color: rgba(0,0,0,.8)
+}
+
+.left{
+    position: absolute;
+    right: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu{
+    padding-top: 10px;
+    margin-left: 10px;
+}
